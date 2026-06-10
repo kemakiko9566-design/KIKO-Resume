@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <pattern id="grid3" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#3B82F6" stroke-opacity="0.06" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0A0A"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg3)"/>
+  <rect width="600" height="400" fill="url(#grid3)"/>
+  <rect x="40" y="40" width="520" height="320" rx="12" fill="none" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <rect x="260" y="110" width="80" height="80" rx="16" fill="none" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1.5"/>
+  <text x="300" y="147" text-anchor="middle" fill="#3B82F6" font-size="28">🤖</text>
+  <text x="300" y="225" text-anchor="middle" fill="#3B82F6" font-family="Arial, sans-serif" font-size="14" font-weight="bold" letter-spacing="1">黑客松现场 · 替换为你的照片</text>
+  <line x1="200" y1="248" x2="400" y2="248" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <circle cx="100" cy="100" r="3" fill="#3B82F6" fill-opacity="0.3"/>
+  <circle cx="500" cy="100" r="3" fill="#3B82F6" fill-opacity="0.3"/>
+  <circle cx="100" cy="300" r="3" fill="#3B82F6" fill-opacity="0.3"/>
+  <circle cx="500" cy="300" r="3" fill="#3B82F6" fill-opacity="0.3"/>
+</svg>

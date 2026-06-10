@@ -1,0 +1,11 @@
+# Large video files (upload separately if needed)
+*.mp4
+*.mov
+*.avi
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/

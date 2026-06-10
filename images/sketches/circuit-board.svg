@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <pattern id="cbg" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#3B82F6" stroke-opacity="0.04" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="cbb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0A0A"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#cbb)"/>
+  <rect width="400" height="400" fill="url(#cbg)"/>
+  <rect x="40" y="40" width="320" height="320" rx="20" fill="none" stroke="#3B82F6" stroke-opacity="0.12" stroke-width="1"/>
+  <rect x="160" y="50" width="80" height="50" rx="6" fill="#3B82F6" fill-opacity="0.06" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="200" y="78" text-anchor="middle" fill="#3B82F6" fill-opacity="0.4" font-family="Arial, sans-serif" font-size="9">CPU</text>
+  <line x1="200" y1="100" x2="200" y2="130" stroke="#3B82F6" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="200" y1="130" x2="100" y2="130" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <line x1="200" y1="130" x2="300" y2="130" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <circle cx="100" cy="130" r="4" fill="#3B82F6" fill-opacity="0.15"/>
+  <circle cx="300" cy="130" r="4" fill="#3B82F6" fill-opacity="0.15"/>
+  <line x1="100" y1="130" x2="100" y2="200" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <line x1="300" y1="130" x2="300" y2="200" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="60" y="200" width="80" height="50" rx="6" fill="#3B82F6" fill-opacity="0.06" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="100" y="228" text-anchor="middle" fill="#3B82F6" fill-opacity="0.4" font-family="Arial, sans-serif" font-size="9">RAM</text>
+  <rect x="260" y="200" width="80" height="50" rx="6" fill="#3B82F6" fill-opacity="0.06" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="300" y="228" text-anchor="middle" fill="#3B82F6" fill-opacity="0.4" font-family="Arial, sans-serif" font-size="9">I/O</text>
+  <line x1="100" y1="250" x2="100" y2="300" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <line x1="300" y1="250" x2="300" y2="300" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <line x1="100" y1="300" x2="200" y2="300" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <line x1="200" y1="300" x2="300" y2="300" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <rect x="160" y="280" width="80" height="40" rx="6" fill="#3B82F6" fill-opacity="0.06" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="200" y="304" text-anchor="middle" fill="#3B82F6" fill-opacity="0.4" font-family="Arial, sans-serif" font-size="9">PWR</text>
+  <circle cx="60" cy="60" r="8" fill="none" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <circle cx="60" cy="60" r="3" fill="#3B82F6" fill-opacity="0.2"/>
+  <circle cx="340" cy="60" r="8" fill="none" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <circle cx="340" cy="60" r="3" fill="#3B82F6" fill-opacity="0.2"/>
+  <circle cx="340" cy="340" r="8" fill="none" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <circle cx="340" cy="340" r="3" fill="#3B82F6" fill-opacity="0.2"/>
+  <circle cx="60" cy="340" r="8" fill="none" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <circle cx="60" cy="340" r="3" fill="#3B82F6" fill-opacity="0.2"/>
+  <line x1="68" y1="60" x2="100" y2="60" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="300" y1="60" x2="332" y2="60" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="68" y1="340" x2="100" y2="300" stroke="#3B82F6" stroke-opacity="0.1" stroke-width="0.8"/>
+  <line x1="332" y1="340" x2="300" y2="300" stroke="#3B82F6" stroke-opacity="0.1" stroke-width="0.8"/>
+  <rect x="50" y="180" width="6" height="6" fill="#3B82F6" fill-opacity="0.1"/>
+  <rect x="344" y="180" width="6" height="6" fill="#3B82F6" fill-opacity="0.1"/>
+</svg>

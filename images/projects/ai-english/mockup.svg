@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <pattern id="ae" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M 35 0 L 0 0 0 35" fill="none" stroke="#3B82F6" stroke-opacity="0.06" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="abe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0A0A"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#abe)"/>
+  <rect width="800" height="500" fill="url(#ae)"/>
+  <rect x="80" y="60" width="640" height="360" rx="16" fill="none" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1.5"/>
+  <rect x="80" y="60" width="640" height="60" rx="16" fill="none" stroke="#3B82F6" stroke-opacity="0.1" stroke-width="1"/>
+  <rect x="80" y="96" width="640" height="24" fill="#3B82F6" fill-opacity="0.03"/>
+  <circle cx="110" cy="90" r="6" fill="#3B82F6" fill-opacity="0.2"/>
+  <circle cx="135" cy="90" r="6" fill="#3B82F6" fill-opacity="0.15"/>
+  <circle cx="160" cy="90" r="6" fill="#3B82F6" fill-opacity="0.1"/>
+  <rect x="200" y="150" width="200" height="140" rx="12" fill="#3B82F6" fill-opacity="0.04" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <text x="300" y="185" text-anchor="middle" fill="#3B82F6" fill-opacity="0.6" font-family="Arial, sans-serif" font-size="12" font-weight="bold">AI 对话练习</text>
+  <rect x="215" y="200" width="120" height="30" rx="15" fill="#3B82F6" fill-opacity="0.08"/>
+  <text x="275" y="219" text-anchor="middle" fill="#3B82F6" fill-opacity="0.5" font-family="Arial, sans-serif" font-size="9">语音交互</text>
+  <rect x="215" y="238" width="120" height="30" rx="15" fill="#3B82F6" fill-opacity="0.08"/>
+  <text x="275" y="257" text-anchor="middle" fill="#3B82F6" fill-opacity="0.5" font-family="Arial, sans-serif" font-size="9">实时反馈</text>
+  <rect x="440" y="150" width="280" height="140" rx="12" fill="#3B82F6" fill-opacity="0.04" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <text x="580" y="185" text-anchor="middle" fill="#3B82F6" fill-opacity="0.6" font-family="Arial, sans-serif" font-size="12" font-weight="bold">学习数据</text>
+  <rect x="460" y="200" width="90" height="20" rx="4" fill="#3B82F6" fill-opacity="0.1"/>
+  <rect x="560" y="200" width="70" height="20" rx="4" fill="#3B82F6" fill-opacity="0.06"/>
+  <rect x="460" y="228" width="120" height="20" rx="4" fill="#3B82F6" fill-opacity="0.08"/>
+  <rect x="590" y="228" width="60" height="20" rx="4" fill="#3B82F6" fill-opacity="0.06"/>
+  <rect x="460" y="256" width="80" height="20" rx="4" fill="#3B82F6" fill-opacity="0.1"/>
+  <rect x="550" y="256" width="100" height="20" rx="4" fill="#3B82F6" fill-opacity="0.06"/>
+  <rect x="200" y="320" width="520" height="30" rx="15" fill="url(#bar)"/>
+  <text x="460" y="340" text-anchor="middle" fill="#3B82F6" fill-opacity="0.6" font-family="Arial, sans-serif" font-size="10">今日进度 65%</text>
+  <text x="400" y="480" text-anchor="middle" fill="#3B82F6" font-family="Arial, sans-serif" font-size="14" font-weight="bold" letter-spacing="2">AI 英语平台 · 替换为你的截图</text>
+</svg>

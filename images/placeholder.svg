@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#3B82F6" stroke-opacity="0.08" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0A0A"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="neon">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="500" fill="url(#grid)"/>
+  <ellipse cx="400" cy="250" rx="200" ry="120" fill="url(#glow)"/>
+  <circle cx="400" cy="200" r="60" fill="none" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <circle cx="400" cy="200" r="40" fill="none" stroke="#3B82F6" stroke-opacity="0.25" stroke-width="1"/>
+  <circle cx="400" cy="200" r="20" fill="none" stroke="#3B82F6" stroke-opacity="0.4" stroke-width="1"/>
+  <line x1="340" y1="250" x2="460" y2="250" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="400" y1="190" x2="400" y2="310" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1"/>
+  <path d="M 300 250 Q 350 230 400 250 Q 450 270 500 250" fill="none" stroke="#3B82F6" stroke-opacity="0.2" stroke-width="1"/>
+  <g filter="url(#neon)">
+    <rect x="275" y="295" width="250" height="48" rx="24" fill="none" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="400" y="326" text-anchor="middle" fill="#3B82F6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="3">Upload Image</text>
+  </g>
+  <line x1="160" y1="80" x2="200" y2="80" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="160" y1="84" x2="180" y2="84" stroke="#3B82F6" stroke-opacity="0.1" stroke-width="1"/>
+  <line x1="600" y1="420" x2="660" y2="420" stroke="#3B82F6" stroke-opacity="0.15" stroke-width="1"/>
+  <line x1="600" y1="424" x2="630" y2="424" stroke="#3B82F6" stroke-opacity="0.1" stroke-width="1"/>
+  <rect x="50" y="50" width="4" height="4" fill="#3B82F6" fill-opacity="0.3"/>
+  <rect x="746" y="50" width="4" height="4" fill="#3B82F6" fill-opacity="0.3"/>
+  <rect x="50" y="446" width="4" height="4" fill="#3B82F6" fill-opacity="0.3"/>
+  <rect x="746" y="446" width="4" height="4" fill="#3B82F6" fill-opacity="0.3"/>
+  <text x="400" y="485" text-anchor="middle" fill="#3B82F6" fill-opacity="0.2" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">PLACEHOLDER</text>
+</svg>
